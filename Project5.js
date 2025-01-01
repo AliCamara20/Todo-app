@@ -5,7 +5,7 @@ const taskContainer = document.querySelector("#task-container");
 
 // Event Listener for the add Button;
 if(!localStorage.getItem('todos')){
-    localStorage.setItem(saveTodos);
+    localStorage.setItem(saveTodos());
 }
 let todos = getTodos();
 updateTodos();
@@ -111,11 +111,7 @@ function createTodo(todo, todoIndex){
         }
 
     })
-        
-     ;
-
-    
-    
+        ;
     return todoContainer;
 }
 
