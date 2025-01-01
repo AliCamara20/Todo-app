@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-image:  url(background7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+    
+
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+    
+}
+
+
+.header{
+    font-size: 13px;
+    border: 2px solid white;
+    color: white;
+    background-color: #262626;
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.main-content{
+    width: 100%;
+    height: fit-content;
+    background-color:none;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0px 0px 15px;
+    
+}
+
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+    
+    
+    
+
+}
+
+.main-content .person{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: blue;
+}
+
+ #button-area button{
+    background-color: #262626;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+ #button-area button:active{
+    background-color: lightblue;
+}
+
+body{
+    animation: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+
+   
+}
+
+@keyframes move {
+    from {margin: left 100%};
+    to{margin: left 0%;}
+   }

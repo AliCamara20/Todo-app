@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container{
+    width: 60%;
+    height: 250px;
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 30px;
+    
+
+}
+
+.timer{
+    width: 100%;
+    font-size: 72px;
+    padding: 0px auto;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.buttons{
+    
+   text-align: center;
+  
+   
+
+}
+
+button {
+    margin: 20px 10px;
+    border: none;
+    padding: 5px 5px;
+    
+}
+
+button i {
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    width: 50px;
+    border: none;
+}
+
+#play{
+    background-color: green;
+}
+
+#pause{
+    background-color: orange;
+
+}
+
+#reset{
+    background-color: red;
+}
