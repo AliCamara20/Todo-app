@@ -15,9 +15,14 @@ body{
     background-repeat: no-repeat;
 }
 
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .add-task-container{
 
-    width: 500px;
     background-color: whitesmoke;
     display: flex;
     align-items: center;
