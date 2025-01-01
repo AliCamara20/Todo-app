@@ -10,6 +10,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('todo_image.avif');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .add-task-container{
@@ -27,7 +30,7 @@ body{
     flex: 1;
    padding: 10px;
    border-radius: 5px;
-   font-size: 1.2rem;
+   font-size: 1.1rem;
    margin-right: 10px;
    border: none;
    background: transparent;
@@ -71,7 +74,7 @@ body{
 
 
 .todo-container  .todoText{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     flex-grow: 1;
     
 }
